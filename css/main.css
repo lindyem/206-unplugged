@@ -99,26 +99,30 @@ textarea {
    ========================================================================== */
 
 /* --- Base Header - Footer Styles ---*/
+html{
+  font-family:Open Sans;
+  font-size: 12px;
+}
 
 header {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: #202322;
 }
 
 .logo {
-  margin-right: 20px;
+  text-align: center;
 }
 
 /* Header Styles*/
 
 header .content-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
   width: 100%;
 }
 
@@ -133,7 +137,15 @@ header ul {
 }
 
 li {
-  width: 50px;
+  width: 80px;
+
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 700;
+
 }
 
 header nav {
@@ -141,6 +153,8 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+
 }
 
 /* --- Mobile Styles - Homepage ---*/
@@ -151,6 +165,14 @@ header nav {
   flex-flow: row wrap;
 }
 
+.headline{
+  color: black;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right:40px;
+
+}
 aside {
   display: flex;
   justify-content: center;
@@ -161,19 +183,21 @@ aside {
 /*Footer*/
 
 footer .content-wrapper {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 50px auto;
+  
+  
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-flow: row wrap;
   width: 55%;
+
 }
 
 .features {
@@ -182,11 +206,32 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
+.features-title{
+  font-size: 2em;
+  padding-top: 30px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .row {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1em;
+
+}
+.row-image{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-text{
+  text-align: center;
+  
 }
 
 .review {
@@ -198,19 +243,24 @@ footer .content-wrapper {
 
 .social-media {
   display: flex;
+  justify-content: center;
+  padding-left: 50px;
 }
 
 .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  
 }
 
 .copyright {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -300,8 +350,11 @@ footer .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-widthL 768px) {
+
+}
+@media only screen and (min-width 1200px) {
+
 }
 
 @media print,
