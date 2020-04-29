@@ -100,32 +100,30 @@ textarea {
 
    /* --- Base Header - Footer Styles ---*/
  
-   header,
-  footer{    
+   header{    
     display: flex;
     justify-content: right;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #202322;
+ 
   }
 
   .logo{
- 
+    margin-right:20px;
   }
   
   /* Header Styles*/
 
-  header{
-    background-color: #202322;
-    display: flex;
+ 
 
-  }
-
-  header .content-wrapper{
+  header .content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-  }
+    width: 100%;
+}
 
  header ul{
    display: flex;
@@ -134,15 +132,19 @@ textarea {
    flex-flow:row wrap; 
    color:white;
    list-style: none;
-   
+   margin-right:20px;
  }
  
+ li{
+   width: 50px;
+ }
   
   header nav{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    
   }
 
 
@@ -170,11 +172,13 @@ textarea {
    footer{
    
    }
+
    footer .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px auto;
    }
 
    .footer-content{
@@ -182,7 +186,10 @@ textarea {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    width:55%;
    }
+
+  
 
    .features{
     display: flex;
