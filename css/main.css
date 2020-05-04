@@ -419,6 +419,21 @@ footer .content-wrapper {
   paddng: 5px 0;
 } 
 
+/*FAQ Styles*/
+
+.faq-content-wrapper{
+  background-color: #527158;
+  color: white;
+
+
+
+}
+.faq{
+  margin: 20px 20px; 
+
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -502,6 +517,7 @@ footer .content-wrapper {
   clear: both;
 }
 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -551,11 +567,12 @@ footer .content-wrapper {
   /* About styles*/
 
   .map figure{
-    width: 100%;
+    width: 80%;
     height: 0; 
     padding-bottom: 80%; 
     overflow: hidden;
     position: relative;
+    margin: 0;
   }
   
   .map iframe{
@@ -578,10 +595,57 @@ footer .content-wrapper {
 .information{
   margin-left:0;
 }
-.contact-info{
- 
+
 }
+
+/*FAQ Style*/
+
+.faq-content-wrapper{
+  background-color: #527158;
+  color: white;
+  padding-bottom: 70px;
 }
+
+.faq{
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 40px; 
+
+}
+.title{
+ padding: 60px 80px;
+ margin: 0;
+}
+.top-row{
+  padding-right: 40px;
+}
+
+.bottom-row{
+  padding-right: 40px;
+}
+
+.footer-content{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  
+  
+}
+
+.contact {
+  width: 40%;
+
+}
+
+.social-media {
+  width: 40%;
+}
+
 
 
 
@@ -591,6 +655,7 @@ footer .content-wrapper {
     width: 33%;
   }
 
+  
 }
 
 
