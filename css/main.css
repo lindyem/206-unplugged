@@ -116,6 +116,23 @@ footer {
   background-color: #202322;
 }
 
+.emailFooter {
+  text-decoration: none;
+  text-color: white;
+  font-weight:bold;
+
+}
+
+.emailFooter:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.emailFooter:visited{
+  color: white;
+  font-weight: bold;
+}
+
 .logo {
   text-align: center;
 }
@@ -236,8 +253,6 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
-  
 }
 
 .footer-content {
@@ -411,6 +426,23 @@ footer .content-wrapper {
   margin-left: 20px;
 }
 
+.emailFooter {
+  text-decoration: none;
+  text-color: white;
+  font-weight:bold;
+
+}
+
+.emailFooter:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.emailFooter:visited{
+  color: white;
+  font-weight: bold;
+}
+
 .email1{
   margin-bottom:10px;
 }
@@ -430,10 +462,24 @@ footer .content-wrapper {
 }
 .faq{
   margin: 20px 20px; 
+}
+
+.emailFooter {
+  text-decoration: none;
+  text-color: white;
+  font-weight:bold;
 
 }
 
+.emailFooter:hover{
+  color: white;
+  font-weight: bold;
+}
 
+.emailFooter:visited{
+  color: white;
+  font-weight: bold;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -633,7 +679,6 @@ footer .content-wrapper {
   justify-content: space-evenly;
   align-items: center;
   flex-flow: row wrap;
-  
   
 }
 
