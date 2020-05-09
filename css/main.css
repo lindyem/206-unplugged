@@ -118,10 +118,11 @@ footer {
 
 .emailFooter {
   text-decoration: none;
-  text-color: white;
+  color: white;
   font-weight:bold;
-
 }
+
+
 
 .emailFooter:hover{
   color: white;
@@ -186,13 +187,23 @@ header nav {
 }
 
 .content-wrapper {
-  padding: 0 30px;
+  padding: 0 60px;
+}
+
+.background-review {
+  background-color: #2a423a;
+  color: white;
+}
+
+.background-join {
+  background-color: #527158;
+  color: white;
 }
 
 .form {
   margin-top: 15px;
 }
-.form-description{
+.form-description {
   font-size: 1.5em;
   font-weight:bold;
   padding: 10px 0;
@@ -237,6 +248,26 @@ header nav {
 .join-info{
   text-size: 1.3em;
 }
+
+.button{
+  margin-top: 5px;
+  height: 41px;
+  width: 75%;
+  border: 1px solid black;
+  background-color: #2a423a;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.email-address{
+  text-align: center;
+  width: 74%;
+  height: 37px;
+  margin-bottom: 10px;
+  
+}
+
 
 .review-content{
   display: flex;
@@ -419,7 +450,7 @@ footer .content-wrapper {
 .information{
   font-size: 1.3em;
   padding: 5px 0;
-  margin-left: 20px;
+  margin-left: px;
 }
 .contact-info{
   font-size: 1em;
@@ -449,7 +480,7 @@ footer .content-wrapper {
 }
 .chat{
   font-size: 1.3em;
-  paddng: 5px 0;
+  padding:  ;
 } 
 
 /*FAQ Styles*/
@@ -457,9 +488,6 @@ footer .content-wrapper {
 .faq-content-wrapper{
   background-color: #527158;
   color: white;
-
-
-
 }
 .faq{
   margin: 20px 20px; 
